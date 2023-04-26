@@ -1,0 +1,24 @@
+<div class="container">
+  <header>
+    <div class="menu-items">
+      <a class="menu-item"> Home </a>
+      <a class="menu-item"> Articles </a>
+      <a class="menu-item"> Authors </a>
+      <a class="menu-item"> Tags </a>
+      <a class="menu-item"> About us </a>
+    </div>
+    <div class="theme-switcher">
+      <label class="switch">
+        <input
+          type="checkbox"
+          [checked]="isLightTheme"
+          (change)="onThemeSwitchChange()"
+        />
+        <span class="slider round"></span>
+      </label>
+    </div>
+  </header>
+  <main>
+    <h1>Welcome to Code Beyond Limits</h1>
+  </main>
+</div>
